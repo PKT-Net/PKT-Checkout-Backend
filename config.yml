@@ -1,0 +1,24 @@
+# API
+api-http-address: 127.0.0.1
+api-http-port: 5000
+api-invoice-timeout: 15
+api-cors-origin: https://test.com
+
+# MySQL
+mysql-address: 127.0.0.1
+mysql-port: 3306
+mysql-database: pktcheckout
+mysql-user: pktcheckout
+mysql-pass: pktcheckout
+
+# Wallet
+wallet-rpc-address: localhost
+wallet-rpc-port: 8332
+wallet-rpc-user: x
+wallet-rpc-pass: x
+wallet-addresses: 50
+wallet-confirmations: 10
+
+# Callback
+callback-attempts: 5
+callback-backoff: 10
